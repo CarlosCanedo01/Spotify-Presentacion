@@ -1,0 +1,182 @@
+/*reset css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*general styles*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*container clase general*/
+.container{
+    padding: 20px 0px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+/*header*/
+header{
+    background-color: #000;
+    color:#fff;
+    padding: 16px 0px;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo img{
+    width: 145px;
+}
+/*Hero*/
+.hero{
+    background-color: rgb(220, 12, 140);
+    color: #fff;
+    padding: 50px 0px;
+    width: 100%;
+}
+.hero-elements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.hero-titles{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hero-titles h1{
+    font-size: 30px;
+    font-style: bold;
+}
+.hero-titles h2{
+    font-size: 20px;
+}
+.hero-titles p{
+    font-size: 10px;
+}
+.hero-buttons{
+    display: flex;
+    gap: 11px;
+}
+.hero-buttons a{
+    border-radius: 20px;
+    padding: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.button-dark{
+    background-color: #000;
+    color: #fff;
+}
+.button-light{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+.hero-image img{
+width: 380px;
+}
+/*Middle Box*/
+.middle-text h1{
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    gap: 60px;
+    margin: 25px;
+}
+.logo-container{
+    padding-top:50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    margin: 12px;
+    padding: 10px;
+    background-color: #fff;
+    height: 200px;
+}
+   
+.cards-container{
+    padding-top:50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card{
+    margin: 12px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    height: 600px;
+}
+.images{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+    gap:10px;
+}
+.images img{
+    width: 30px;
+}
+.card-buttons{
+    display: grid;
+    gap: 5px;
+}
+.card-buttons a{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+.card-title{
+    margin: 5px;
+    font-size: 22px;
+    font-style: bold;
+}
+.card-element{
+    font-size: 15px;
+    text-decoration: none;
+    justify-content: end;
+    padding-bottom: 6px;
+}
+.button-blue{
+    background-color: rgb(39, 25, 235);
+    color: #fff;
+    font-size: 12px;
+}
+.button-below{
+    background-color: #fff;
+    border: 1px solid #2719eb;
+    color: rgb(39, 25, 235);
+    font-size: 12px;
+}
+.black-button{
+    margin: 16px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 12px;
+    gap: 20px;
+    font-size: 15px;
+    align-self: baseline;
+}
+.text-below{
+    font-size: 10px;
+}
+li{
+    list-style:symbols(✔);
+    font-size: 15 px;
+}
+
